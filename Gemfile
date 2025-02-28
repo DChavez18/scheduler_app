@@ -64,6 +64,10 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+  gem "shoulda-matchers"
+  gem "rspec-rails", "~> 5.1"
+  gem "factory_bot_rails"
+  gem "faker", "~> 3.5"
 end
 
 gem "sidekiq", "~> 7.3"
@@ -71,8 +75,6 @@ gem "redis", "~> 5.4"
 
 gem "actioncable", "~> 7.1"
 
-gem "faker", "~> 3.5"
 
 gem "pry-byebug", "~> 3.10"
 
-gem "rspec-rails", "~> 5.1"
