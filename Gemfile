@@ -74,3 +74,5 @@ gem "actioncable", "~> 7.1"
 gem "faker", "~> 3.5"
 
 gem "pry-byebug", "~> 3.10"
+
+gem "rspec-rails", "~> 5.1"
